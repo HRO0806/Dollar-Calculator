@@ -5,9 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="main.js" defer></script>
 </head>
 <body>
-  <h1>Dolloar calculator</h1>
-  
+  <header class="title sticky">
+    <h1>Henry's dollar conversion app</h1>
+  </header>
+  <div class="data-gatherer">
+    <form>
+      <label for="dollar-amount">U.S Dollar amount</label><br>
+      <input type="text" id="dollar-amount" name="dollar-amount"><br>
+      <label for="currency">Currency</label><br>
+      <input type="text" id="currency" name="currency"><br>
+    </form>
+  </div>
+  <div class="data-presenter">
+      <h2>The exchanged value</h2>
+  </div>
 </body>
 </html>
